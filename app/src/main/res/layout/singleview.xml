@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+android:background="#fff"
+   android:layout_gravity="center">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="match_parent">
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:elevation="5dp"
+        android:layout_height="wrap_content">
+        <TextView
+    android:layout_width="match_parent"
+    android:layout_gravity="center"
+    android:gravity="center"
+    android:textSize="17dp"
+    android:layout_margin="8dp"
+    android:textColor="@color/colorPrimary"
+    android:textStyle="bold"
+    android:layout_height="wrap_content"
+    android:text="Topic of Quiz"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:id="@+id/tvtime"
+
+
+        android:textSize="14dp"
+        android:layout_height="wrap_content"
+        android:text="Subheading"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Question 1"
+            android:layout_margin="3dp"
+            android:layout_weight="1"
+            android:layout_gravity="center"
+            android:id="@+id/nums"
+
+
+            android:backgroundTint="#fff"
+
+            android:padding="4dp"
+            android:textColor="#000"
+            />
+    </LinearLayout>
+
+  <LinearLayout
+      android:layout_width="match_parent"
+      android:orientation="horizontal"
+      android:layout_gravity="right"
+android:gravity="right"
+      android:padding="8dp"
+      android:background="#66cccccc"
+      android:layout_height="wrap_content">
+
+
+        <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:background="#555"
+android:gravity="center"
+android:layout_marginRight="5dp"
+
+        android:padding="6dp"
+        android:id="@+id/markreview"
+        android:textColor="#fff"
+        android:layout_gravity="center"
+            android:text="Mark As Review"/></LinearLayout>
+
+
+
+        <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorPrimary"
+        android:background="#fff"
+        android:textSize="16dp"
+          android:padding="9dp"
+
+        android:id="@+id/ques"
+
+
+        android:layout_gravity="center"
+
+
+        android:textAlignment="center"
+        android:text=" How to link Android Studio with Github. Install Git on your computer. After that,select Git as your version contro a "/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#66cccccc"
+android:layout_marginTop="8dp"
+
+        android:orientation="vertical"
+        android:layout_weight="1"
+        >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:padding="12dp"
+android:textAlignment="inherit"
+        android:id="@+id/t1"
+        android:background="@drawable/optionss"
+
+        android:layout_margin="3dp"
+
+        android:text="A            bhxbshbxsbchhsbchbhcbhbbch chbhchcd"
+        android:textColor="#000"
+        />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+               android:background="@drawable/optionss"
+                android:id="@+id/t2"
+                android:layout_margin="3dp"
+                android:padding="12dp"
+                android:text="B             bhxbshbxsbchhsbchbhcbhbbch chbhchcd"
+                android:textColor="#000"
+                />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:id="@+id/t3"
+                android:layout_margin="3dp"
+                android:padding="12dp"
+                android:background="@drawable/optionss"
+                android:text="C            bhxbshbxsbchhsbchbhcbhbbch chbhchcd"
+                android:textColor="#000"
+                />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="D            bhxbshbxsbchhsbchbhcbhbbch chbhchcd"
+                android:textColor="#000"
+               android:background="@drawable/optionss"
+                android:id="@+id/t4"
+                android:layout_margin="3dp"
+                android:padding="12dp"
+                />
+    </LinearLayout></LinearLayout>
+       <LinearLayout
+
+    android:layout_width="match_parent"
+
+android:layout_alignParentBottom="true"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+           <SeekBar
+               android:id="@+id/seekBar2"
+               style="@style/Widget.AppCompat.SeekBar.Discrete"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+android:outlineSpotShadowColor="@color/colorPrimary"
+               android:progress="0"
+android:visibility="gone"
+               android:background="#fff"
+               android:outlineAmbientShadowColor="@color/colorPrimary"
+               />
+    <LinearLayout
+
+        android:layout_width="match_parent"
+
+        android:layout_alignParentBottom="true"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+    <Button
+        android:layout_width="wrap_content"
+        android:textColor="#fff"
+        android:layout_weight="1"
+        android:layout_margin="1dp"
+        android:textAllCaps="false"
+        android:id="@+id/p"
+
+        android:layout_height="40dp"
+        android:background="@drawable/rounded"
+        android:text="Previous"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_margin="1dp"
+        android:layout_height="40dp"
+        android:background="@drawable/rounded"
+        android:textColor="#fff"
+        android:id="@+id/s"
+        android:textAllCaps="false"
+        android:layout_weight="1"
+        android:text="Submit"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:background="@drawable/rounded"
+        android:layout_weight="1"
+        android:id="@+id/n"
+        android:layout_height="40dp"
+        android:textColor="#fff"
+        android:layout_margin="1dp"
+        android:textAllCaps="false"
+        android:text="Next"/>
+       </LinearLayout>
+       </LinearLayout>
+   </RelativeLayout>

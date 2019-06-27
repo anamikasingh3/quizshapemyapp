@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/home"
+            android:checked="false"
+            android:icon="@drawable/myexams"
+            android:title="My Exam" />
+
+        <item
+            android:id="@+id/a1"
+            android:checked="false"
+            android:icon="@drawable/attempted"
+            android:title="Attempted Exam" />
+
+        <item
+            android:id="@+id/a2"
+            android:checked="false"
+            android:icon="@drawable/offline"
+            android:title="Offline Test" />
+
+        <item
+            android:id="@+id/a3"
+            android:checked="false"
+            android:icon="@drawable/forum"
+            android:title="Forum" />
+
+        <item
+            android:id="@+id/a4"
+            android:checked="false"
+            android:icon="@drawable/blog"
+            android:title="Blogs" />
+
+
+        <item
+            android:id="@+id/a5"
+            android:checked="false"
+            android:icon="@drawable/pakage"
+            android:title="Pakages" />
+
+        <item
+            android:id="@+id/a6"
+            android:checked="false"
+            android:icon="@drawable/news"
+            android:title="Current Affairs" />
+
+        <item
+            android:id="@+id/a7"
+            android:checked="false"
+            android:icon="@drawable/job"
+            android:title="Job Alert" />
+
+        <item
+            android:id="@+id/a8"
+            android:checked="false"
+            android:icon="@drawable/profile"
+            android:title="My Account" />
+
+        <item
+            android:id="@+id/a9"
+            android:checked="false"
+            android:icon="@drawable/logout"
+            android:title="Logout" />
+
+
+    </group>
+</menu>
